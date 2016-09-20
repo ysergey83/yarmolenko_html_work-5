@@ -1,0 +1,148 @@
+body {
+   font-family: Helvetica Neue, Arial, Tahoma;
+}
+
+.wrapper {
+  background-image: url("../images/bgi.jpg");
+  text-align: center;
+  width: 1210px;
+  height: 1055px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  background-color: #074f8e;
+  color: #fff;
+  position: absolute;
+}
+
+.main-menu {
+ margin-left: 500px;
+}
+
+.main-menu ul li {
+  padding-right: 12px;
+  float: left;
+  list-style: none;
+}
+
+.main-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  line-height: 35px;
+}
+
+.main-menu ul li a:hover {
+  background-color: #4eabda;
+  color:#fff;
+}
+
+.oferta {
+  display: flex;
+  line-height: 34px;
+}
+
+.oferta-links {
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+  background-color: #307dc6;
+  line-height: 35px;
+  padding: 0 10px;
+}
+
+.flag {
+  width: 15px;
+  height: 20px;
+   position: relative;
+   top:7px;
+   padding: 1px 10px;
+   border-left: 1px solid #56a2dc;
+ }
+
+.minhas {
+  padding-left: 10px;
+  padding-right: 40px;
+}
+
+.forms {
+  position: relative;
+  top: 23%;
+  background: rgba(0, 0, 0, 0.5);
+  width: 45%;
+  height: 70%; 
+  margin: 0 auto; 
+}
+
+.cadastre {
+  font-size: 24px;
+  padding: 30px 0;
+  border-bottom: 2px solid #bbc6b6;
+  color: #fff;
+  position: absolute;
+  width: 100%
+}
+
+.fb {
+   padding-top: 50px;
+}
+
+.ou {
+  font-size: 17px;
+  color: #999;
+  padding-top: 30px;
+}
+
+.form {
+  position: absolute;
+  padding-top: 31px;
+}
+
+form input {
+   margin: 15px;
+   padding-left: 20px;
+   color: #fff; 
+   background: rgba(15, 15, 15, 1);
+   outline: none;
+   height: 35px;
+   width: 275px;
+   font-size: 14px;
+   border: none;
+}
+
+form input:hover {
+  color: #fff;
+  background-color: #4eabda;
+  box-shadow: 0 0 5px 2px #4eabda;
+}
+
+.checkbox {
+  color: #ccc;
+  font-size: 14px;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.button_create{
+  width: 150px;
+  height: 35px;
+  left: 190px;
+  background-color: #3f94d0;
+  border: none;
+  position: absolute;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.text_bottom {
+  max-width: 350px;
+  color: #ccc;
+  font-size: 11px;
+  position: absolute;
+   padding-top: 50px;
+   padding-left: 100px;
+}
